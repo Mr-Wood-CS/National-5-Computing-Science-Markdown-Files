@@ -1,7 +1,7 @@
 # National 5 Computing Science
 
 <figure markdown="span">
-  ![Image title](./Images/ComputerScience.png){ width="300" }
+  ![Image title](./Images/ComputerScience.png){ width="800" }
   <figcaption></figcaption>
 </figure>
 
