@@ -1,6 +1,9 @@
 # National 5 Computing Science
 
-![Image title](../Images/ComputerScience.png){ width="300" }
+<figure markdown="span">
+  ![Image title](./Images/ComputerScience.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
 
 Welcome to SQA National 5 Computer Science! This course will introduce you to the exciting world of technology, where you’ll learn how computers work, how to design software, and how to manage data. We’ll cover three main units: **Software Design and Development**, **Computer Systems**, and **Database Design and Development**.
 
