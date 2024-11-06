@@ -1,15 +1,44 @@
-# Variables and Data Types
+# Simple Conditional Statements
 
-## What are Variables?
+## Selection - If, Explanation
 
-A variable is something that can be assigned a value.
+Programs have to make decisions.
+
+You have seen how these decisions can be represented on a flowchart (notice the diamond shapes with yes/no decisions).
+
+In National 5, you will often be asked to follow a design that has these decisions. You will implement the decisions in Python with if statements.
+
+## If statements
+
+Your programs will often react to something input by the user.
+
+In this example, the user is asked to enter a password. If they enter “hello123”, access is granted:
 
 !!! example
 	```Python
-	x = 5
-	y = 2
+	# Ask the user to enter a password
+	passwd = input("Please enter the password")
+	
+	# Is access granted?
+	if passwd == “hello123”:
+		print("Access granted")
 	```
-You will already have used similar in **Maths**. What is x + y? (the answer is 7)
+
+The if statement always starts with the word if, followed by a condition. A condition checks that something is equal to, greater than or less than something else. In this case, it checks if passwd (what the user entered) is equal to the string “hello123”.
+
+We use indentation for any code that we want to be inside the if statement (this means we tab it in). Notice that the print statement is tabbed in slightly from the left. This means that it only happens if the if statement above it is true. We could have multiple lines of code inside the if statement.
+The if statement always ends in a colon :
+
+== Note the use of the double-equals ==. We use two equals signs when checking for equality in an if statement. We can use the == signs for testing if any variable matches any other data. When our data is a number (whether it is an integer or a real number), we can see if it is less than or greater than another number ==
+
+| Symbols     | Description                                                     |
+| ----------- | ----------------------------------------------------------------|
+| `==`        | Equal to, e.g. 5 == 5, score == 12 or faveSubject == "Computing"|
+| `<`         | Less than, e.g. 40 and 62 are both < 99                         |
+| `>`         | Greater than, e.g. 50.4 and 85.1 are both > 10.8                |
+| `<=`        | Less than or equal to, e.g. 22 and 70 are both <= 70            |
+| `>=`        | Greater than or equal to, e.g. 100 and 105 are both >= 100      |
+
 
 **In computing however, we usually give them a longer (more meaningful) name, such as:**
 
