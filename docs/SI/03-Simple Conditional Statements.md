@@ -7,7 +7,7 @@ Programs have to make decisions.
 You have seen how these decisions can be represented on a flowchart (notice the diamond shapes with yes/no decisions).
 
 <figure markdown="span">
-  ![Image title](./Images/IF-Flowchart.png){ width="800" }
+  ![Image title](../Images/IF-Flowchart.png){ width="800" }
   <figcaption></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ We could ask for a test mark percentage. If the mark is greater than (or equal t
 This could be represented on a flowchart:
 
 <figure markdown="span">
-  ![Image title](./Images/Elif-Flowchart.png){ width="800" }
+  ![Image title](../Images/Elif-Flowchart.png){ width="800" }
   <figcaption></figcaption>
 </figure>
 
