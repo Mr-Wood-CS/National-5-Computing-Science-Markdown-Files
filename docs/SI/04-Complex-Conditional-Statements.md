@@ -17,14 +17,25 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 | `not`            | Check if a condition is not true, e.g.                    |     
 
 
-`__and__ - Check if two conditions are both true.`
 
-: !!! example
+#### `and`
 
- 	```python linenums="1"
-  		if age >= 17 and age <= 100:
-   		print(“You are between 17 and 100”)
-  	```
+:   Check if two conditions are both __true__
+
+	!!! example
+	
+		```Python
+	  		if age >= 17 and age <= 100:
+	   		print(“You are between 17 and 100”)
+		```
+
+
+
+
+
+
+
+
 
 `__or__ - Check if at least one (or both) of the conditions is true.`
 
