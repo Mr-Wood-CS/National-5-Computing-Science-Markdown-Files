@@ -77,7 +77,7 @@ We could ask for a test mark percentage. If the mark is greater than (or equal t
 This could be represented on a flowchart:
 
 <figure markdown="span">
-  ![Image title](../Images/Simple-Conditional-Statements-2-.drawio.png){ width="700" }
+  ![Image title](../Images/Simple-Conditional-Statements-.drawio.png){ width="700" }
 </figure>
 
 This is very efficient, because the program only needs to check for a B or C if the person did not get an A. If they did get enough marks for an A, the program never has to check those conditions.
