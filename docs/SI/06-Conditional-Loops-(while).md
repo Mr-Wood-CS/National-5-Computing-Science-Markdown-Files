@@ -14,7 +14,7 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 
 !!! example
 
-	```Python
+	```python linenums="1"
 		# Initialise the variable
 		mynumber = 0
 		
@@ -23,8 +23,8 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 		
 		# Example of a while loop
 		while mynumber > 100:
-		    print("That number is too big!")
-		    mynumber = int(input("Please enter a number"))
+			print("That number is too big!")
+			mynumber = int(input("Please enter a number"))
 	```
 
 !!! warning "don’t get stuck in an __infinite loop__"
@@ -33,7 +33,7 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 	
 	For example, this loop would never end as 100 is always more than 5, so the loop will continue running indefinitely.
 
-		```Python
+		```python linenums="1"
 			while 100 > 5:
 				print("One hundred is still more than five")
 	        ```
