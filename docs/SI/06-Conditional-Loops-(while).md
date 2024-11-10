@@ -27,7 +27,7 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 			mynumber = int(input("Please enter a number"))
 	```
 
-!!! warning "Don’t get stuck in an __infinite loop__!"
+!!! warning "Warning - Don’t get stuck in an __infinite loop__!"
 
 	Make sure that your condition will always end.
 	
