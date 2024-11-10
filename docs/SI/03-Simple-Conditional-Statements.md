@@ -20,13 +20,14 @@ Your programs will often react to something input by the user.
 In this example, the user is asked to enter a password. If they enter “hello123”, access is granted:
 
 !!! example
+
 	```Python
-	# Ask the user to enter a password
-	passwd = input("Please enter the password")
-	
-	# Is access granted?
-	if passwd == “hello123”:
-		print("Access granted")
+		# Ask the user to enter a password
+		passwd = input("Please enter the password")
+		
+		# Is access granted?
+		if passwd == “hello123”:
+			print("Access granted")
 	```
 
 The if statement always starts with the word if, followed by a condition. A condition checks that something is equal to, greater than or less than something else. In this case, it checks if passwd (what the user entered) is equal to the string “hello123”.
@@ -50,15 +51,16 @@ Sometimes, we want the program to do something if data meets a condition, or oth
 A program could check that someone’s age is greater than or equal to 17. If so, they are allowed to drive. If this is not so, they are not allowed to drive:
 
 !!! example
+
 	```Python
-	# Ask the user for their age
-	age = int(input("Please enter your age"))
-	
-	# Old enough to drive?
-	if age >= 17:
-		print("Broom broom")
-	else:
-		print("Sorry, no drive yet”)
+		# Ask the user for their age
+		age = int(input("Please enter your age"))
+		
+		# Old enough to drive?
+		if age >= 17:
+			print("Broom broom")
+		else:
+			print("Sorry, no drive yet”)
 	```
 In these examples, the program always does one thing, or the other. They are mutually exclusive. You cannot be both age >= 17 and not >= 17 at the same time, so only one branch of the decision is carried out.
 
@@ -84,6 +86,7 @@ This is very efficient, because the program only needs to check for a B or C if 
 In Python, we create this with elif (short for else-if):
 
 !!! example
+
 	```Python
 		# Ask for percentage mark
 		mark = int(input("Please enter percentage mark"))
