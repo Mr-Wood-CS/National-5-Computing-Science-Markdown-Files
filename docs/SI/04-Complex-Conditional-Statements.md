@@ -19,7 +19,7 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 
 `__and__ - Check if two conditions are both true.`
 
-:   !!! example
+: !!! example
 
  	```python linenums="1"
   		if age >= 17 and age <= 100:
