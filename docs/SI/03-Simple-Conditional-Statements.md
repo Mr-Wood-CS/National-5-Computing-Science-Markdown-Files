@@ -7,7 +7,7 @@ Programs have to make decisions.
 You have seen how these decisions can be represented on a flowchart (notice the diamond shapes with yes/no decisions).
 
 <figure markdown="span">
-  ![Image title](../Images/IF-Flowchart.png){ width="400" }
+  ![Image title](../Images/Simple-Conditional-Statements-1.drawio.png){ width="400" }
   <figcaption></figcaption>
 </figure>
 
