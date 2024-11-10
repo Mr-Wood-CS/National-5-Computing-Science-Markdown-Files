@@ -18,9 +18,9 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 
 	!!! example
 	
-		```Python
+		```python linenums="1"
 	  		if age >= 17 and age <= 100:
-	   		print(“You are between 17 and 100”)
+	   			print(“You are between 17 and 100”)
 		```
 
 #### `or`
@@ -29,9 +29,9 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 
 	!!! example
 	
-		```Python
+		```python linenums="1"
 			if weather == “rain” or weather == “cloudy”
-			   print(“It is not nice weather today”)
+				print(“It is not nice weather today”)
 		```
 
 #### `not`
@@ -42,24 +42,22 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 	
 		```Python
 			if not age < 17
-			   print(“You are not less than 17”)
-			   print(“So you must be at least 17 or over”)
+				print(“You are not less than 17”)
+				print(“So you must be at least 17 or over”)
 		```
 !!! important
 
 	You __MUST__ to write the full condition out each time.
-	
- 	You can’t say:
 
-   	!!! example
-    
-    		```python
-			if weather == “rain” or “cloudy”
-   		```
+	   	!!! example "You can’t say:"
+	    
+	    		```python
+				if weather == “rain” or “cloudy”
+	   		```
 	
-	You must say:
+	
 
- 	   	!!! example
+ 	   	!!! example "You must say:"
       
 	    		```python
 				if weather == “rain” or weather == “cloudy”
