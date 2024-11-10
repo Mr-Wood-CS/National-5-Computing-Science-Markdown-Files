@@ -15,11 +15,9 @@ In National 5, you will often be asked to follow a design that has these decisio
 
 ## If statements
 
-Your programs will often react to something input by the user.
+Your programs will often react to something input by the user:
 
-In this example, the user is asked to enter a password. If they enter “hello123”, access is granted:
-
-!!! example
+!!! example "The user is asked to enter a password. If they enter “hello123”, access is granted."
 
 	```Python
 		# Ask the user to enter a password
@@ -48,7 +46,10 @@ The if statement always ends in a colon :
 ## Multiple Selection - Else - Explanation
 
 Sometimes, we want the program to do something if data meets a condition, or otherwise, it is to do something else. This is called an else statement.
-A program could check that someone’s age is greater than or equal to 17. If so, they are allowed to drive. If this is not so, they are not allowed to drive:
+
+A program could check that someone’s age is greater than or equal to 17. If so, they are allowed to drive. 
+
+If this is not so, they are not allowed to drive:
 
 !!! example
 
