@@ -36,5 +36,5 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 		```python linenums="1"
 			while 100 > 5:
 				print("One hundred is still more than five")
-	        ```
+		```
 
