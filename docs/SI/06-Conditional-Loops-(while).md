@@ -33,8 +33,8 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 	
 	For example, this loop would never end as 100 is always more than 5, so the loop will continue running indefinitely.
 
-			```python linenums="1"
-				while 100 > 5:
-					print("One hundred is still more than five")
-			```
+	```python linenums="1"
+		while 100 > 5:
+			print("One hundred is still more than five")
+	```
 
