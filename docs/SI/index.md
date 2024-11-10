@@ -1,6 +1,6 @@
 # Software Implementation
 
-!!! abstract "Implementation (data types and structures) Checklist"
+!!! abstract "Checklist - Implementation (data types and structures)"
 
      ` Skills, knowledge and Understanding`
      
