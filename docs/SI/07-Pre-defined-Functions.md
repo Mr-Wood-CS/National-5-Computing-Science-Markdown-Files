@@ -9,6 +9,7 @@ When you use a pre-defined function, you pass one or more parameters.
 __The parameter is the part in brackets.__
 
 !!! example
+
 	```python numlines="1"
 		pi = round(3.14159265)
 	```
@@ -27,6 +28,7 @@ Something that is random is open to chance - like rolling dice, or tossing a coi
 Before we use a random number, we have to put this line at the top of the program:
 
 !!! example
+
 	```python numlines="1"
 		# This program is going to use random numbers
 		import random
@@ -35,6 +37,7 @@ Before we use a random number, we have to put this line at the top of the progra
 Random will always returns an integer (a whole number) and will only generate a random number that is between two parameters:
 
 !!! example
+
 	```python numlines="1"
 		# Generate a random number from 1 to 6
 		dice = random.randint(1, 6)
@@ -44,7 +47,8 @@ The code above will generate a number that could be either 1, 2, 3, 4, 5 or 6.
 
 Complete example:
 
-!!! example "Example - The Random Number Game"
+!!! example "The Random Number Game"
+
 	```python numlines="1"
  
 		# Add the random module
