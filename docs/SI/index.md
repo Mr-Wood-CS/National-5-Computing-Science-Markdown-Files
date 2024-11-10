@@ -16,7 +16,6 @@
 |Implementation (computational constructs)          |Describe, exemplify, and implement the appropriate constructs in a high-level (textual) language: 
 
 !!! checklist "Implementation (data types and structures)"
-
     : Skills, knowledge and Understanding  
     
       - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
