@@ -6,21 +6,15 @@ Sometimes conditions can be more complicated. The logical operators and, or and 
 
 Suppose we ask for a percentage, but it must be between 0 and 100. This could also be written as greater than or equal to 0, and less than or equal to 100.
 
-●	The number 53 meets this condition, because it is >= 0, and it is <= 100
-●	Although the number 110 is >= 0, it is not <= 100, so the condition is not true
-●	-273 is less than or equal to 100, but it is not >= 0, so the condition is not true
-
-| Logical Operator | Description                                               |
-| ---------------- | ----------------------------------------------------------|
-| `and`            | Check if two conditions are both true.                    |
-| `or`             | Check if at least one (or both) of the conditions is true.|
-| `not`            | Check if a condition is not true, e.g.                    |     
+* The number 53 meets this condition, because it is >= 0, and it is <= 100
+* Although the number 110 is >= 0, it is not <= 100, so the condition is not true
+* -273 is less than or equal to 100, but it is not >= 0, so the condition is not true
 
 
 
 #### `and`
 
-:   Check if two conditions are both __true__
+:   __Check if two conditions are both true__
 
 	!!! example
 	
@@ -29,29 +23,28 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 	   		print(“You are between 17 and 100”)
 		```
 
+#### `or`
 
+:   __Check if at least one (or both) of the conditions is true.__
 
+	!!! example
+	
+		```Python
+			if weather == “rain” or weather == “cloudy”
+			   print(“It is not nice weather today”)
+		```
 
+#### `not`
 
+:   __Check if a condition is not true.__
 
-
-
-
-`__or__ - Check if at least one (or both) of the conditions is true.`
-
-:   Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin
-    ut eros sed sapien ullamcorper consequat. Nunc ligula ante.
-
-    Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
-    Nam vulputate tincidunt fringilla.
-    Nullam dignissim ultrices urna non auctor.
-    
-`__not__ - Check if a condition is not true.`
-
-:   Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus
-    tellus non sem sollicitudin, quis rutrum leo facilisis.
-
-
+	!!! example
+	
+		```Python
+			if not age < 17
+			   print(“You are not less than 17”)
+			   print(“So you must be at least 17 or over”)
+		```
     
 Programs have to make decisions.
 
