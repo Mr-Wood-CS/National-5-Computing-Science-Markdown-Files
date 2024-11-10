@@ -47,14 +47,14 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 		```
 !!! Warning "You __MUST__ to write the full condition out each time.
 
-	   	!!! example "You can’t say:"
-	    
-	    		```python
-				if weather == “rain” or “cloudy”
-	   		```
+	!!! example "You can’t say:"
+    
+		```python
+			if weather == “rain” or “cloudy”
+		```
 
- 	   	!!! example "You must say:"
-      
-	    		```python
-				if weather == “rain” or weather == “cloudy”
-	   		```
+	!!! example "You must say:"
+
+		```python
+			if weather == “rain” or weather == “cloudy”
+		```
