@@ -45,17 +45,13 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 				print(“You are not less than 17”)
 				print(“So you must be at least 17 or over”)
 		```
-!!! important
-
-	You __MUST__ to write the full condition out each time.
+!!! Warning "You __MUST__ to write the full condition out each time.
 
 	   	!!! example "You can’t say:"
 	    
 	    		```python
 				if weather == “rain” or “cloudy”
 	   		```
-	
-	
 
  	   	!!! example "You must say:"
       
