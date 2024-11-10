@@ -1,4 +1,4 @@
-# Simple Conditional Statements
+# Conditional Loops (while)
 
 ## Selection - If - Explanation
 
