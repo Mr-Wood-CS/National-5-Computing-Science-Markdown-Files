@@ -13,6 +13,7 @@ nav:
       - Variables and Data Types: 'SI/02-Variables-and-Data-Types.md'
       - Simple Conditional Statements: 'SI/03-Simple Conditional Statements.md'
       - Complex Conditional Statements: 'SI/04-Complex-Conditional-Statements.md'
+      - Complex Conditional Statements: 'SI/05-Fixed-Loops-(for).md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
