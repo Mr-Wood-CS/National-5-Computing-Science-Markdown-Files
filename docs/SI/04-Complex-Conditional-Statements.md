@@ -45,13 +45,14 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 			   print(“You are not less than 17”)
 			   print(“So you must be at least 17 or over”)
 		```
-!!! note
+!!! important
 
 	You __MUST__ to write the full condition out each time.
 	
  	You can’t say:
 
    	!!! example
+    
     		```python
 			if weather == “rain” or “cloudy”
    		```
@@ -59,6 +60,7 @@ Suppose we ask for a percentage, but it must be between 0 and 100. This could al
 	You must say:
 
  	   	!!! example
-    		```python
-			if weather == “rain” or weather == “cloudy”
-   		```
+      
+	    		```python
+				if weather == “rain” or weather == “cloudy”
+	   		```
