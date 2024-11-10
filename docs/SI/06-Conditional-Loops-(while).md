@@ -6,11 +6,11 @@ A conditional loop (__in Python, a while loop__) repeats only while a condition 
 
 A conditional loop is like a combination of a fixed loop and an if statement and you can use all of the same conditions in a while loop that you would in an if statement.
 
-> In this example, the user is asked to enter a number. 
+* In this example, the user is asked to enter a number. 
 
-> If the number is more than 100, part of the program repeats, asking them to enter the number again. 
+* If the number is more than 100, part of the program repeats, asking them to enter the number again. 
 
-> It only repeats while their input is more than 100. Once that condition is met, the loop stops repeating and the program continues:
+* It only repeats while their input is more than 100. Once that condition is met, the loop stops repeating and the program continues:
 
 !!! example
 
