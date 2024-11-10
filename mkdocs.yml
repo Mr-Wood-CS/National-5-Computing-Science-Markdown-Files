@@ -14,6 +14,7 @@ nav:
       - Simple Conditional Statements: 'SI/03-Simple Conditional Statements.md'
       - Complex Conditional Statements: 'SI/04-Complex-Conditional-Statements.md'
       - Fixed Loops (for): 'SI/05-Fixed-Loops-(for).md'
+      - Conditional Loops (while): 'SI/06-Conditional-Loops-(while).md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
