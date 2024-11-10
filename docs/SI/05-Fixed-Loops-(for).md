@@ -6,7 +6,7 @@ So far, when ever we have wanted to output a word multiple times, we have always
 
 !!! example
 
-	```python linenums=1
+	```python linenums="1"
 		print("Hello world")
 		print("Hello world")
 		print("Hello world")
@@ -22,8 +22,6 @@ __This is very inefficient.__
 
 Suppose we wanted to change the message - we’d have to go back and change every line individually, taking up time. 
 
-We would also be much more likely to make a mistake.
-
 To fix this we could instead, use a fixed loop.
 
 A fixed loop is a loop that repeats a certain (fixed) number of times. 
@@ -32,7 +30,7 @@ This example is exactly the same as the code above, but with much less code.
 
 !!! example
 
-	```python linenums=1
+	```python linenums="1"
 		for loop in range(1, 10):
 			print(“Hello world”)
  	```
@@ -43,7 +41,7 @@ We could use any other variable name, say bananas:
 
 !!! example
 
-	```python linenums=1
+	```python linenums="1"
 		for bananas in range(0, 8):
 			print(bananas)
  	```
@@ -54,7 +52,7 @@ Each time the loop repeats, it asks for another number, and adds it to its runni
 
 !!! example
 
-	```python linenums=1
+	```python linenums="1"
 		# Example with a running total
 		total = 0
 		
