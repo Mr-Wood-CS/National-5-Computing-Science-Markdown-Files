@@ -2,7 +2,7 @@
 
 !!! abstract "Checklist - Implementation (data types and structures)"
 
-     ` Skills, knowledge and Understanding`
+     ` Skills, Knowledge and Understanding`
      
      : Describe, exemplify, and implement appropriately the following data types and structures:
      
