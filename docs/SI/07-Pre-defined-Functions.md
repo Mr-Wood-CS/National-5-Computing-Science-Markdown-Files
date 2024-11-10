@@ -6,9 +6,7 @@ Pre-defined functions are built-in to Python. This saves you “reinventing the 
 
 When you use a pre-defined function, you pass one or more parameters. 
 
-__The parameter is the part in brackets.__
-
-!!! example
+!!! example "The parameter is the part in brackets."
 
 	```python linenums="1"
 		pi = round(3.14159265)
@@ -21,7 +19,7 @@ There are three pre-defined functions that you must know for National 5:
 
 * Length
 
-## Random Number
+## Random
 
 Something that is random is open to chance - like rolling dice, or tossing a coin.
 
@@ -78,6 +76,7 @@ This example calculates the length of a word, stores it in a variable called “
 	
 		# Stores and displays how many characters are in the word “hello”
 		how_long = len("hello")
+  
 		print(how_long)
 
 	```
